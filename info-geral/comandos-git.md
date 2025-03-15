@@ -7,7 +7,7 @@
 </pre>
 
 ### Iniciando um Repositório
-<pre> 
+<pre>
 ▪ Git init <span style="color:#F73873;"> # Inicializa um repositório Git na pasta atual.</span>
 ▪ Git clone chave_ssh <span style="color:#F73873;"># Clona um repositório remoto.</span>
 </pre>
