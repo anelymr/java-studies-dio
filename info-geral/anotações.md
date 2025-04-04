@@ -114,6 +114,8 @@ obs: um exemplo prático foi adicionado ao src, com o nome "ExemploMetodos.java"
 .substring(inicio, fim)     // Pega um pedaço da string.
 .replace()                  // Substitui partes do texto.
 .concat()                   // Concatena (junta) duas strings.
+
+obs: um exemplo prático foi adicionado ao src > learning-examples com o nome "ExemploStrings.java"
 </pre>
 
 
