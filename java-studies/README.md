@@ -10,3 +10,6 @@
 - `src > learning-examples > ExemploMetodos`:
     
     Foi criado um exemplo de como criar um método personalizado que irá concatenar o resultado das duas variáveis que foram declaradas.
+
+- `src > learning-examples > TiposPrimitivos`:
+    O código declara variáveis de cada tipo e exibe seus valores no console, servindo como uma introdução prática aos tipos de dados básicos em Java.
