@@ -95,7 +95,25 @@ A declaração de um método em java, segue uma estrutura bem simples:
 obs: um exemplo prático foi adicionado ao src, com o nome "ExemploMetodos.java"
 </pre>
 
+- Informações sobre a classe String:
+<pre>
+- Em Java, String é uma classe (com "S" maiúsculo) usada para representar cadeias de caracteres;
+- É imutável → uma vez criada, o conteúdo de uma String não muda;
+- É um objeto → por isso usamos métodos como .length(), .toUpperCase(), etc.;
+- Pode ser concatenada com + ou .concat();
+- Está no pacote java.lang, então você não precisa importar;
+</pre>
 
-
+- Métodos úteis da classe String:
+<pre>
+.length()                   // Retorna o número de caracteres da string.
+.toUpperCase()              // Transformam o texto em maiúsculas.
+.toLowerCase()              // Transformam o texto em minúsculas.
+.contains()                 // Verifica se contém um trecho especifico.
+.equals()                   // Verifica se é igual a outra string.
+.substring(inicio, fim)     // Pega um pedaço da string.
+.replace()                  // Substitui partes do texto.
+.concat()                   // Concatena (junta) duas strings.
+</pre>
 
 
