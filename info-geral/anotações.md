@@ -70,15 +70,15 @@ A declaração de uma variável em java, sempre seguirá a estrutura abaixo:
     Dog spike; //aqui a variável spike não tem valor
 </pre>
 
-- Variáveis que não podem ser alteradas:
+- Variáveis que não podem ser alteradas (Constantes):
 <pre>
-Quando queremos criar variáveis no qual o seu valor não poderá ser alterado, elas deverão conter o nome completamente em maíusculo.
+Quando queremos criar variáveis no qual o seu valor não poderá ser alterado, elas deverão conter o nome completamente em maíusculo e deverão ter a expressão `final` escrito primeiro.
 
 Exemplo:
-String BR = "Brasil"
-double PI = 3.14
-int ESTADOS_BRASILEIRO = 27
-int ANO_2000 = 2000
+final String BR = "Brasil"
+final double PI = 3.14
+final int ESTADOS_BRASILEIRO = 27
+final int ANO_2000 = 2000
 </pre>
 
 - Como declarar um método?
