@@ -98,7 +98,7 @@ obs: um exemplo prático foi adicionado ao src, com o nome "ExemploMetodos.java"
 </pre>
 
 - Tipos de métodos:
-<pre>	
+<pre>
 Tipo: Sem retorno e sem parâmetro	| Exemplo: public void mostrarMensagem()	    | Descrição: Apenas executa algo.
 Tipo: Com retorno e sem parâmetro	| Exemplo: public int obterAno()	            | Descrição: Retorna um valor, mas não precisa de dados de entrada.
 Tipo: Com retorno e com parâmetro	| Exemplo: public int somar(int a, int b)	    | Descrição: Precisa de entradas e retorna um valor.
@@ -107,34 +107,45 @@ Tipo: Sem retorno e com parâmetro	| Exemplo: public void exibirNome(String nome
 
 ## Tipos de dados primitivos e de referência:
 <pre>
-- String: Representa uma sequência de caracteres (texto). É imutável (não pode ser alterada depois de criada).
-Possui muitos métodos úteis como:
-.length()                   // Retorna o número de caracteres da string.
-.toUpperCase()              // Transformam o texto em maiúsculas.
-.toLowerCase()              // Transformam o texto em minúsculas.
-.contains()                 // Verifica se contém um trecho especifico.
-.equals()                   // Verifica se é igual a outra string.
-.substring(inicio, fim)     // Pega um pedaço da string.
-.replace()                  // Substitui partes do texto.
-.concat()                   // Concatena (junta) duas strings.
+- String:
+    Representa uma sequência de caracteres (texto).
+    É imutável (não pode ser alterada depois de criada).
+    Possui muitos métodos úteis como:
+    .length()                   // Retorna o número de caracteres da string.
+    .toUpperCase()              // Transformam o texto em maiúsculas.
+    .toLowerCase()              // Transformam o texto em minúsculas.
+    .contains()                 // Verifica se contém um trecho especifico.
+    .equals()                   // Verifica se é igual a outra string.
+    .substring(inicio, fim)     // Pega um pedaço da string.
+    .replace()                  // Substitui partes do texto.
+    .concat()                   // Concatena (junta) duas strings.
 
     obs: um exemplo prático foi adicionado ao src > learning-examples com o nome "ExemploStrings.java"
 
-- Integer, Double, Float, Long, etc: São wrappers (classes "embrulho") dos tipos primitivos int, double, float, long... Permitem usar métodos úteis, como Integer.parseInt("123") para converter String em número. Podem ser usados com coleções (ArrayList, por exemplo), que não aceitam tipos primitivos.
+- Integer, Double, Float, Long, etc:
+    São wrappers (classes "embrulho") dos tipos primitivos int, double, float, long...
+    Permitem usar métodos úteis, como Integer.parseInt("123") para converter String em número.
+    Podem ser usados com coleções (ArrayList, por exemplo), que não aceitam tipos primitivos.
 
 
-- Array: estrutura de dados com tamanho fixo (ex: int[] numeros = new int[5];)
-- ArrayList: lista flexível da biblioteca Java (java.util.ArrayList) que cresce conforme necessário.
+- Array:
+    estrutura de dados com tamanho fixo (ex: int[] numeros = new int[5];)
+- ArrayList:
+    lista flexível da biblioteca Java (java.util.ArrayList) que cresce conforme necessário.
     Ex: ArrayList<String> nomes = new ArrayList<>();
 
-- Date: classe antiga para manipulação de datas.
-- LocalDate: mais moderna e recomendada, do pacote java.time.
+- Date:
+    classe antiga para manipulação de datas.
+- LocalDate:
+    mais moderna e recomendada, do pacote java.time.
     Ex: LocalDate hoje = LocalDate.now();
 
-- Random: Classe para gerar números aleatórios.
+- Random:
+    Classe para gerar números aleatórios.
     Ex: Random random = new Random(); int numero = random.nextInt(10);
 
-- System: Classe utilitária que contém métodos como:
+- System:
+    Classe utilitária que contém métodos como:
     System.out.println() para exibir no console.
     System.currentTimeMillis() para pegar o tempo atual em milissegundos.
 </pre>
