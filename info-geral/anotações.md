@@ -118,4 +118,52 @@ obs: um exemplo prático foi adicionado ao src, com o nome "ExemploMetodos.java"
 obs: um exemplo prático foi adicionado ao src > learning-examples com o nome "ExemploStrings.java"
 </pre>
 
+- Operadores em Java:
+<pre>
+- Operadores Aritméticos
+    São usados para realizar operações matemáticas.
 
+Operador: +	    | Descrição: Soma	         | Exemplo: a + b
+Operador: -	    | Descrição: Subtração       | Exemplo: a - b
+Operador: *	    | Descrição: Multiplicação   | Exemplo: a * b
+Operador: /	    | Descrição: Divisão         | Exemplo: a / b
+Operador: %	    | Descrição: Módulo (resto)  | Exemplo: a % b
+
+- Operadores Relacionais (Comparação)
+    São usados para comparar dois valores e retornam um valor boolean (true ou false).
+
+Operador: ==    | Significado: Igual a          | Exemplo: a == b
+Operador: !=    | Significado: Diferente de	    | Exemplo: a != b
+Operador: >	    | Significado: Maior que	    | Exemplo: a > b
+Operador: <	    | Significado: Menor que	    | Exemplo: a < b
+Operador: >=    | Significado: Maior ou igual a | Exemplo: a >= b
+Operador: <=    | Significado: Menor ou igual a | Exemplo: a <= b
+
+- Operadores Lógicos
+    São usados para combinar expressões booleanas.
+
+Operador: &&   | Significado: E (AND)	 | Exemplo: a > 5 && b < 10
+Operador: !	   | Significado: NÃO (NOT)  | Exemplo: !(a > b)
+
+- Operadores de Atribuição
+    São usados para atribuir valores a variáveis.
+
+Operador: =	    | Exemplo: a = 10	| Equivalente a: Atribuir valor
+Operador: +=	| Exemplo: a += 5	| Equivalente a: a = a + 5
+Operador: -=	| Exemplo: a -= 3	| Equivalente a: a = a - 3
+Operador: *=	| Exemplo: a *= 2	| Equivalente a: a = a * 2
+Operador: /=	| Exemplo: a /= 2	| Equivalente a: a = a / 2
+Operador: %=	| Exemplo: a %= 2	| Equivalente a: a = a % 2
+
+- Operadores Unários
+    São usados com apenas um operando.
+
+Operador	Significado	Exemplo
+Operador: +	    | Significado: Valor positivo	    | Exemplo: +a
+Operador: -	    | Significado: Valor negativo	    | Exemplo: -a
+Operador: ++	| Significado: Incremento	        | Exemplo: a++ ou ++a
+Operador: --	| Significado: Decremento	        | Exemplo: a-- ou --a
+Operador: !	    | Significado: Inversão booleana	| Exemplo: !true → false
+
+obs: um exemplo prático foi adicionado ao src > learning-examples > "ExemploOperadores.java"
+</pre>
