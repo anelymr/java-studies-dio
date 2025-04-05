@@ -35,7 +35,7 @@ Exemplo:
     }
 </pre>
 
-- Regras para criar uma variável:
+## Variáveis:
 <pre>
 Regra 1: Deve conter apenas letras, underline, $ ou números de 0 a 9;
 Regra 2: Deve obrigatoriamente se iniciar por uma letra, underline ou $, mas jamais com números;
@@ -81,31 +81,34 @@ final int ESTADOS_BRASILEIRO = 27
 final int ANO_2000 = 2000
 </pre>
 
-- Como declarar um método?
+## Métodos:
 <pre>
 A declaração de um método em java, segue uma estrutura bem simples:
-    //Estrutura
-    TipoRetorno NomeObjetivoNoInfinitivo Parametro(s)
+    //Estrutura básica de um método
+    modificador tipoRetorno nomeDoMetodo(parâmetros) {
+    // corpo do método
+    }
 
-    //Exemplo
-    int somar (int numeroUm, int numero2)
-
-    String formatarCep (long cep)
+- modificador: geralmente public ou private, define a visibilidade do método.
+- tipoRetorno: define o tipo de valor que o método vai retornar (int, String, void...).
+- nomeDoMetodo: o nome que você escolher, seguindo convenções (letra minúscula no início, nome descritivo).
+- parâmetros: valores que o método pode receber como entrada. Pode ser nenhum ou vários.
 
 obs: um exemplo prático foi adicionado ao src, com o nome "ExemploMetodos.java"
 </pre>
 
-- Informações sobre a classe String:
-<pre>
-- Em Java, String é uma classe (com "S" maiúsculo) usada para representar cadeias de caracteres;
-- É imutável → uma vez criada, o conteúdo de uma String não muda;
-- É um objeto → por isso usamos métodos como .length(), .toUpperCase(), etc.;
-- Pode ser concatenada com + ou .concat();
-- Está no pacote java.lang, então você não precisa importar;
+- Tipos de métodos:
+<pre>	
+Tipo: Sem retorno e sem parâmetro	| Exemplo: public void mostrarMensagem()	    | Descrição: Apenas executa algo.
+Tipo: Com retorno e sem parâmetro	| Exemplo: public int obterAno()	            | Descrição: Retorna um valor, mas não precisa de dados de entrada.
+Tipo: Com retorno e com parâmetro	| Exemplo: public int somar(int a, int b)	    | Descrição: Precisa de entradas e retorna um valor.
+Tipo: Sem retorno e com parâmetro	| Exemplo: public void exibirNome(String nome)	| Descrição: Recebe dados, mas não retorna nada.
 </pre>
 
-- Métodos úteis da classe String:
+## Tipos de dados primitivos e de referência:
 <pre>
+- String: Representa uma sequência de caracteres (texto). É imutável (não pode ser alterada depois de criada).
+Possui muitos métodos úteis como:
 .length()                   // Retorna o número de caracteres da string.
 .toUpperCase()              // Transformam o texto em maiúsculas.
 .toLowerCase()              // Transformam o texto em minúsculas.
@@ -115,10 +118,28 @@ obs: um exemplo prático foi adicionado ao src, com o nome "ExemploMetodos.java"
 .replace()                  // Substitui partes do texto.
 .concat()                   // Concatena (junta) duas strings.
 
-obs: um exemplo prático foi adicionado ao src > learning-examples com o nome "ExemploStrings.java"
+    obs: um exemplo prático foi adicionado ao src > learning-examples com o nome "ExemploStrings.java"
+
+- Integer, Double, Float, Long, etc: São wrappers (classes "embrulho") dos tipos primitivos int, double, float, long... Permitem usar métodos úteis, como Integer.parseInt("123") para converter String em número. Podem ser usados com coleções (ArrayList, por exemplo), que não aceitam tipos primitivos.
+
+
+- Array: estrutura de dados com tamanho fixo (ex: int[] numeros = new int[5];)
+- ArrayList: lista flexível da biblioteca Java (java.util.ArrayList) que cresce conforme necessário.
+    Ex: ArrayList<String> nomes = new ArrayList<>();
+
+- Date: classe antiga para manipulação de datas.
+- LocalDate: mais moderna e recomendada, do pacote java.time.
+    Ex: LocalDate hoje = LocalDate.now();
+
+- Random: Classe para gerar números aleatórios.
+    Ex: Random random = new Random(); int numero = random.nextInt(10);
+
+- System: Classe utilitária que contém métodos como:
+    System.out.println() para exibir no console.
+    System.currentTimeMillis() para pegar o tempo atual em milissegundos.
 </pre>
 
-- Operadores em Java:
+## Operadores em Java:
 <pre>
 - Operadores Aritméticos
     São usados para realizar operações matemáticas.

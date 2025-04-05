@@ -1,19 +1,32 @@
-
-//Public Class: define uma classe a ser chamada, neste caso a classe ExemploMetodos
-//Public static void main: é o ponto de entrada do programa, onde passamos as instruções principais
-//Variáveis: estão armazenando o primeiro e o segundo nome que foram passados no parâmetro
-//Public static String nomeCompleto: é um método personalizado, utilizado para juntar as duas variáveis e armazená-las na variável nome completo
-
 public class ExemploMetodos {
-    public static void main (String [] args) {
-        String primeiroNome = "Mylena";
-        String segundoNome = "Rocha";
 
-        String nomeCompleto = nomeCompleto (primeiroNome,segundoNome);
-        System.out.println(nomeCompleto);
-    }
-
-    public static String nomeCompleto (String primeiroNome, String segundoNome) {
-        return "Resultado do método: " + primeiroNome.concat(" ").concat(segundoNome);
-    }
+        // Método principal - ponto de partida da execução
+        public static void main(String[] args) {
+            // Chamando o método que não retorna nada
+            saudacao();
+    
+            // Chamando o método que retorna uma String
+            String nome = obterNome();
+            System.out.println("Nome retornado: " + nome);
+    
+            // Chamando o método que recebe parâmetros e retorna um valor
+            int resultado = somar(5, 3);
+            System.out.println("Resultado da soma: " + resultado);
+        }
+    
+        // Método sem retorno e sem parâmetro
+        public static void saudacao() {
+            System.out.println("Olá! Bem-vindo(a) ao Java.");
+        }
+    
+        // Método com retorno e sem parâmetro
+        public static String obterNome() {
+            return "Mylena";
+        }
+    
+        // Método com retorno e com parâmetro
+        public static int somar(int a, int b) {
+            return a + b;
+        }
+    
 }
