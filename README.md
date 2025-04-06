@@ -11,5 +11,6 @@ O objetivo é documentar conceitos, práticas e desafios enfrentados durante os 
     3. Strings
     4. Operadores
     5. Metodos
+    6. Loops e arrays
 - Projetos:
     Ainda em construção...
