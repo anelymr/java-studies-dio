@@ -24,6 +24,6 @@ public class ExercicioNomeIdade {
         }
         
         System.out.println("Você encerrou o processo");
-
+        scan.close();
     }
 }
