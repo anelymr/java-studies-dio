@@ -127,7 +127,6 @@ Tipo: Sem retorno e com parâmetro	| Exemplo: public void exibirNome(String nome
     Permitem usar métodos úteis, como Integer.parseInt("123") para converter String em número.
     Podem ser usados com coleções (ArrayList, por exemplo), que não aceitam tipos primitivos.
 
-
 - Array:
     estrutura de dados com tamanho fixo (ex: int[] numeros = new int[5];)
 - ArrayList:
