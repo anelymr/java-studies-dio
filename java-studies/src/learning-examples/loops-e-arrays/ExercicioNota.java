@@ -11,13 +11,15 @@ public class ExercicioNota {
         Scanner scan = new Scanner(System.in);
         float nota;
 
-        while (true) {
-            System.out.println("Informe a nota: ");
+        System.out.println("Informe a nota: ");
                 nota = scan.nextFloat();
-                if (nota > 10) break;
+
+        while (nota < 0 || nota > 10) {
+            System.out.println("Nota inválida, digite novamente: ");
+                nota = scan.nextFloat();
         }
 
-        System.out.println("Nota inválida");
+        System.out.println("Nota registrada. Fim!");
         scan.close();
     }
 }
