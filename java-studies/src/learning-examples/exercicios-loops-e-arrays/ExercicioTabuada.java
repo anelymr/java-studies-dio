@@ -13,11 +13,11 @@ public class ExercicioTabuada {
     int multiplicador = 0;
     int resultado_tabuada;
 
-    do{
-        System.out.println("Informe um nro de 1 a 10: ");
+    System.out.println("Informe um nro de 1 a 10: ");
         nro_informado = scan.nextInt();
 
-        if(nro_informado < 1 || nro_informado > 19){
+    do{
+        if(nro_informado < 1 || nro_informado > 10){
             System.out.println("Número não permitido, digite novamente: ");
             nro_informado = scan.nextInt();
         }
