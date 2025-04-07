@@ -36,6 +36,7 @@ public class ExerciciosConsoantes {
             if(consoante != null)
                 System.out.println(consoante);
         }
+        System.out.println("Quantidade de consoantes: " + qtd_Consoantes);
         scan.close();
     }
 }
