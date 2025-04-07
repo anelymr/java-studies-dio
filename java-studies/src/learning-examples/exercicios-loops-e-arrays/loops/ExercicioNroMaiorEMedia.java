@@ -13,22 +13,22 @@ public class ExercicioNroMaiorEMedia {
         Scanner scan = new Scanner(System.in);
 
         int nro;
-        int qtd_nro_informados = 0;
-        int maior_nro = 0;
+        int qtd_Nro_Informados = 0;
+        int maior_Nro = 0;
         int soma = 0;
 
         do {
             System.out.println("Informe o nro: ");
             nro = scan.nextInt();
 
-            qtd_nro_informados = qtd_nro_informados + 1;
+            qtd_Nro_Informados = qtd_Nro_Informados + 1;
             soma = soma + nro;
 
-            if (nro > maior_nro) maior_nro = nro;
-        } while(qtd_nro_informados < 5);
+            if (nro > maior_Nro) maior_Nro = nro;
+        } while(qtd_Nro_Informados < 5);
 
-        System.out.println("Esse é o maior nro: " + maior_nro);
-        System.out.println("A média dos nro's é: " + (soma/qtd_nro_informados));
+        System.out.println("Esse é o maior nro: " + maior_Nro);
+        System.out.println("A média dos nro's é: " + (soma/qtd_Nro_Informados));
 
         scan.close();
     }    
