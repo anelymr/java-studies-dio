@@ -1,3 +1,4 @@
+package loops;
 /*
  Faça um programa que leia conjuntos de dois valores;
  1. representando o nome do aluno;

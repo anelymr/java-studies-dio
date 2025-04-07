@@ -1,3 +1,4 @@
+package loops;
 /*
  Faça um programa que:
  1. Leia 5 números.

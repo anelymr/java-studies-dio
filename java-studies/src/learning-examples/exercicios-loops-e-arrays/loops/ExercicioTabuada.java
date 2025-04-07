@@ -1,3 +1,4 @@
+package loops;
 /*
  Faça um programa que:
  1. Seja capaz de gerar a tabuada de qualquer número inteiro entre 1 e 10
