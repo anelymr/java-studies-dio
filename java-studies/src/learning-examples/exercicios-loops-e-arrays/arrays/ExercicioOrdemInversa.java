@@ -1,3 +1,4 @@
+package arrays;
 /*
  Crie um vetor de 06 números inteiros e mostre-os na ordem inversa.
  */

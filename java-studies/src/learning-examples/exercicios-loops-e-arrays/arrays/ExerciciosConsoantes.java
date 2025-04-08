@@ -1,3 +1,4 @@
+package arrays;
 /*
  Faça um programa que:
  1. Leia um vetor de 06 caracteres
