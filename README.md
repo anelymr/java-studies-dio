@@ -12,5 +12,4 @@ O objetivo é documentar conceitos, práticas e desafios enfrentados durante os 
     4. Operadores
     5. Metodos
     6. Loops e arrays
-- Projetos:
-    Ainda em construção...
+    7. Desafios da plataforma .Dio
