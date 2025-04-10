@@ -1,4 +1,3 @@
-package loops;
 /*
 1. Faça um programa que solicite uma nova entre zero e dez.
 2. Mostre uma mensagem caso o valor seja inválido.
