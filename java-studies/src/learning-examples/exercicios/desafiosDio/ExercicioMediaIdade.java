@@ -1,3 +1,4 @@
+package desafiosDio;
 //Código abaixo é o código que eu fiz para entregar o desafio "Média de Idade" da .Dio
 import java.util.Scanner;
 
